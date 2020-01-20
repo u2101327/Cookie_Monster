@@ -1,0 +1,7 @@
+.navbar{
+	border-bottom: 1px solid #ccc
+}
+
+main{
+	min-height: calc(100vh - 14em);
+}
