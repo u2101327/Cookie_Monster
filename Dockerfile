@@ -1,4 +1,4 @@
-FROM php:apache  # Use a publicly available PHP + Apache image
+FROM php:apache
 
 # Set maintainer (optional)
 LABEL maintainer="Zane Durkin <zane@neverlanctf.org>"
