@@ -1,6 +1,6 @@
 <?php
-if(array_key_exists("Red_Guy's_name", $_COOKIE)&&preg_match('/([Ee])lmo+/', $_COOKIE["Red_Guy's_name"])){
-  $output=('<p>You got it! flag{YumYumC00kies}</p>');
+if(array_key_exists("Your_favourite_subject", $_COOKIE)&&preg_match('/^(wic2007|WIC2007)$/', $_COOKIE["Course_code"])){
+  $output=('<p>You got it! flag{Dr_f@1$_hen$em}</p>');
 }else{
     $output = ("<p>He's my favorite Red guy</p>");
     setcookie("Red_Guy's_name", 'NameGoesHere', time()+300);
