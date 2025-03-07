@@ -1,6 +1,10 @@
-FROM neverlanctf/base:5th-year
+FROM php:apache  # Use a publicly available PHP + Apache image
 
-MAINTAINER Zane Durkin <zane@neverlanctf.org>
+# Set maintainer (optional)
+LABEL maintainer="Zane Durkin <zane@neverlanctf.org>"
 
-# import web files
+# Copy web files into the Apache web root
 COPY web/ /var/www/html
+
+# Expose port 80 (Apache default)
+EXPOSE 80
