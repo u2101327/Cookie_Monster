@@ -1,5 +1,5 @@
 <?php
-if(array_key_exists("Your_favourite_subject", $_COOKIE)&&preg_match('/^(wic2007|WIC2007)$/', $_COOKIE["Course_code"])){
+if(array_key_exists("Cybersecurity_Code", $_COOKIE)&&preg_match('/^(wic2007|WIC2007)$/', $_COOKIE["Course_code"])){
   $output=('<p>You got it! flag{Dr_f@1$_hen$em}</p>');
 }else{
     $output = ("<p>He's my favorite Red guy</p>");
